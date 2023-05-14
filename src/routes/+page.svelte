@@ -1,4 +1,19 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+  import { AppBar } from '@skeletonlabs/skeleton';
+  import { LightSwitch } from '@skeletonlabs/skeleton';
+</script>
+
+<AppBar>
+	<svelte:fragment slot="lead">(icon)</svelte:fragment>
+	(title)
+	<svelte:fragment slot="trail">
+    <LightSwitch />
+    <span class="px-2">
+    (actions)
+    </span>
+  </svelte:fragment>
+</AppBar>
 
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5">
